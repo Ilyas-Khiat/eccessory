@@ -1,0 +1,112 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+:root {
+    --main-color: #fd4646;
+    --text-color: #171427;
+    --bg-color: #fff;
+}
+
+.login-page {
+  width: 360px;
+  padding: 8% 0 0;
+  margin: auto;
+}
+
+div.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.form {
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.form input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.form button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: var(--main-color);
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+.form button:hover,.form button:active,.form button:focus {
+  background: var(--main-color);
+}
+.form .message {
+  margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 12px;
+}
+.form .message a {
+  color: var(--main-color);
+  font-weight: bold;
+}
+.form .register-form {
+  display: none;
+}
+.container {
+  position: relative;
+  z-index: 1;
+  max-width: 300px;
+  margin: 0 auto;
+}
+.container:before, .container:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.container .info {
+  margin: 50px auto;
+  text-align: center;
+}
+.container .info h1 {
+  margin: 0 0 15px;
+  padding: 0;
+  font-size: 36px;
+  font-weight: 300;
+  color: #1a1a1a;
+}
+.container .info span {
+  color: #4d4d4d;
+  font-size: 12px;
+}
+.container .info span a {
+  color: #000000;
+  text-decoration: none;
+}
+.container .info span .fa {
+  color: #EF3B3A;
+}
+body {
+    font-family: "Roboto";
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: repeat;
+    background-image: url("data:image/svg+xml;utf8,%3Csvg viewBox=%220 0 2000 1400%22 xmlns=%22http:%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cmask id=%22b%22 x=%220%22 y=%220%22 width=%222000%22 height=%221400%22%3E%3Cpath fill=%22url(%23a)%22 d=%22M0 0h2000v1400H0z%22%2F%3E%3C%2Fmask%3E%3Cpath fill=%22%23fff%22 d=%22M0 0h2000v1400H0z%22%2F%3E%3Cg style=%22transform-origin:center center%22 stroke=%22%23fd464685%22 stroke-width=%22.4%22 mask=%22url(%23b)%22%3E%3Cpath fill=%22none%22 d=%22M0 0h105v105H0zM105 0h105v105H105zM210 0h105v105H210zM315 0h105v105H315zM420 0h105v105H420z%22%2F%3E%3Cpath fill=%22%23fd46461c%22 d=%22M525 0h105v105H525z%22%2F%3E%3Cpath fill=%22none%22 d=%22M630 0h105v105H630zM735 0h105v105H735z%22%2F%3E%3Cpath fill=%22%23fd464659%22 d=%22M840 0h105v105H840z%22%2F%3E%3Cpath fill=%22none%22 d=%22M945 0h105v105H945zM1155 0h105v105h-105z%22%2F%3E%3Cpath fill=%22%23fd464676%22 d=%22M1260 0h105v105h-105z%22%2F%3E%3Cpath fill=%22none%22 d=%22M1470 0h105v105h-105z%22%2F%3E%3Cpath fill=%22%23fd464675%22 d=%22M1575 0h105v105h-105z%22%2F%3E%3Cpath fill=%22none%22 d=%22M1680 0h105v105h-105zM105 105h105v105H105zM210 105h105v105H210z%22%2F%3E%3Cpath fill=%22%23fd464666%22 d=%22M420 105h105v105H420z%22%2F%3E%3Cpath fill=%22%23fd46460c%22 d=%22M525 105h105v105H525z%22%2F%3E%3Cpath fill=%22%23fd464626%22 d=%22M735 105h105v105H735z%22%2F%3E%3Cpath fill=%22none%22 d=%22M840 105h105v105H840zM945 105h105v105H945zM1050 105h105v105h-105zM1155 105h105v105h-105zM1260 105h105v105h-105zM1365 105h105v105h-105zM1575 105h105v105h-105zM1785 105h105v105h-105zM1890 105h105v105h-105zM0 210h105v105H0z%22%2F%3E%3Cpath fill=%22%23fd464677%22 d=%22M105 210h105v105H105z%22%2F%3E%3Cpath fill=%22%23fd464620%22 d=%22M315 210h105v105H315z%22%2F%3E%3Cpath fill=%22%23fd464602%22 d=%22M420 210h105v105H420z%22%2F%3E%3Cpath fill=%22%23fd464649%22 d=%22M525 210h105v105H525z%22%2F%3E%3Cpath fill=%22%23fd464607%22 d=%22M630 210h105v105H630z%22%2F%3E%3Cpath fill=%22%23fd464676%22 d=%22M735 210h105v105H735z%22%2F%3E%3Cpath fill=%22none%22 d=%22M840 210h105v105H840zM945 210h105v105H945z%22%2F%3E%3Cpath fill=%22%23fd464676%22 d=%22M1365 210h105v105h-105z%22%2F%3E%3Cpath fill=%22%23fd464626%22 d=%22M1575 210h105v105h-105z%22%2F%3E%3Cpath fill=%22%23fd464601%22 d=%22M1680 210h105v105h-105z%22%2F%3E%3Cpath fill=%22%23fd46463a%22 d=%22M1890 210h105v105h-105z%22%2F%3E%3Cpath fill=%22none%22 d=%22M0 315h105v105H0z%22%2F%3E%3Cpath fill=%22%23fd464634%22 d=%22M105 315h105v105H105z%22%2F%3E%3Cpath fill=%22none%22 d=%22M210 315h105v105H210zM420 315h105v105H420zM525 315h105v105H525zM630 315h105v105H630zM735 315h105v105H735z%22%2F%3E%3Cpath fill=%22%23fd464682%22 d=%22M945 315h105v105H945z%22%2F%3E%3Cpath fill=%22%23fd464609%22 d=%22M1365 315h105v105h-105z%22%2F%3E%3Cpath fill=%22%23fd464603%22 d=%22M1470 315h105v105h-105z%22%2F%3E%3Cpath fill=%22none%22 d=%22M1575 315h105v105h-105zM1680 315h105v105h-105z%22%2F%3E%3Cpath fill=%22%23fd46464e%22 d=%22M1785 315h105v105h-105z%22%2F%3E%3Cpath fill=%22none%22 d=%22M1890 315h105v105h-105zM0 420h105v105H0zM105 420h105v105H105zM210 420h105v105H210z%22%2F%3E%3Cpath fill=%22%23fd464610%22 d=%22M420 420h105v105H420z%22%2F%3E%3Cpath fill=%22%23fd464654%22 d=%22M525 420h105v105H525z%22%2F%3E%3Cpath fill=%22%23fd464604%22 d=%22M630 420h105v105H630z%22%2F%3E%3Cpath fill=%22none%22 d=%22M840 420h105v105H840zM945 420h105v105H945z%22%2F%3E%3Cpath fill=%22%23fd46467d%22 d=%22M1155 420h105v105h-105z%22%2F%3E%3Cpath fill=%22none%22 d=%22M1260 420h105v105h-105zM1365 420h105v105h-105z%22%2F%3E%3Cpath fill=%22%23fd46463d%22 d=%22M1470 420h105v105h-105z%22%2F%3E%3Cpath fill=%22none%22 d=%22M1575 420h105v105h-105z%22%2F%3E%3Cpath fill=%22%23fd464629%22 d=%22M1680 420h105v105h-105z%22%2F%3E%3Cpath fill=%22none%22 d=%22M1785 420h105v105h-105zM1890 420h105v105h-105zM0 525h105v105H0zM105 525h105v105H105zM210 525h105v105H210zM315 525h105v105H315zM420 525h105v105H420zM525 525h105v105H525z%22%2F%3E%3Cpath fill=%22%23fd464662%22 d=%22M630 525h105v105H630z%22%2F%3E%3Cpath fill=%22%23fd464666%22 d=%22M840 525h105v105H840z%22%2F%3E%3Cpath fill=%22none%22 d=%22M945 525h105v105H945zM1260 525h105v105h-105zM1365 525h105v105h-105zM1785 525h105v105h-105z%22%2F%3E%3Cpath fill=%22%23fd464654%22 d=%22M1890 525h105v105h-105z%22%2F%3E%3Cpath fill=%22%23fd464624%22 d=%22M0 630h105v105H0z%22%2F%3E%3Cpath fill=%22none%22 d=%22M105 630h105v105H105zM210 630h105v105H210zM315 630h105v105H315zM420 630h105v105H420zM525 630h105v105H525zM630 630h105v105H630zM735 630h105v105H735z%22%2F%3E%3Cpath fill=%22%23fd464643%22 d=%22M840 630h105v105H840z%22%2F%3E%3Cpath fill=%22none%22 d=%22M945 630h105v105H945zM1470 630h105v105h-105zM1575 630h105v105h-105zM1680 630h105v105h-105zM0 735h105v105H0z%22%2F%3E%3Cpath fill=%22%23fd46466a%22 d=%22M105 735h105v105H105z%22%2F%3E%3Cpath fill=%22none%22 d=%22M315 735h105v105H315zM525 735h105v105H525z%22%2F%3E%3Cpath fill=%22%23fd464676%22 d=%22M735 735h105v105H735z%22%2F%3E%3Cpath fill=%22none%22 d=%22M840 735h105v105H840zM1050 735h105v105h-105zM1155 735h105v105h-105z%22%2F%3E%3Cpath fill=%22%23fd464617%22 d=%22M1260 735h105v105h-105z%22%2F%3E%3Cpath fill=%22%23fd46463f%22 d=%22M1365 735h105v105h-105z%22%2F%3E%3Cpath fill=%22%23fd46461d%22 d=%22M1470 735h105v105h-105z%22%2F%3E%3Cpath fill=%22none%22 d=%22M1575 735h105v105h-105zM1680 735h105v105h-105zM1785 735h105v105h-105z%22%2F%3E%3Cpath fill=%22%23fd464675%22 d=%22M105 840h105v105H105z%22%2F%3E%3Cpath fill=%22none%22 d=%22M210 840h105v105H210zM315 840h105v105H315zM420 840h105v105H420zM525 840h105v105H525z%22%2F%3E%3Cpath fill=%22%23fd464634%22 d=%22M630 840h105v105H630z%22%2F%3E%3Cpath fill=%22none%22 d=%22M840 840h105v105H840z%22%2F%3E%3Cpath fill=%22%23fd46465d%22 d=%22M945 840h105v105H945z%22%2F%3E%3Cpath fill=%22none%22 d=%22M1050 840h105v105h-105zM1260 840h105v105h-105zM1365 840h105v105h-105z%22%2F%3E%3Cpath fill=%22%23fd464639%22 d=%22M1470 840h105v105h-105z%22%2F%3E%3Cpath fill=%22none%22 d=%22M1680 840h105v105h-105zM1785 840h105v105h-105zM1890 840h105v105h-105zM105 945h105v105H105zM210 945h105v105H210z%22%2F%3E%3Cpath fill=%22%23fd464658%22 d=%22M315 945h105v105H315z%22%2F%3E%3Cpath fill=%22none%22 d=%22M420 945h105v105H420z%22%2F%3E%3Cpath fill=%22%23fd464601%22 d=%22M735 945h105v105H735z%22%2F%3E%3Cpath fill=%22none%22 d=%22M840 945h105v105H840zM945 945h105v105H945zM1050 945h105v105h-105zM1155 945h105v105h-105zM1260 945h105v105h-105zM1365 945h105v105h-105z%22%2F%3E%3Cpath fill=%22%23fd464619%22 d=%22M1470 945h105v105h-105z%22%2F%3E%3Cpath fill=%22%23fd46464a%22 d=%22M1575 945h105v105h-105z%22%2F%3E%3Cpath fill=%22%23fd464602%22 d=%22M1680 945h105v105h-105z%22%2F%3E%3Cpath fill=%22none%22 d=%22M1785 945h105v105h-105zM1890 945h105v105h-105zM0 1050h105v105H0z%22%2F%3E%3Cpath fill=%22%23fd464670%22 d=%22M105 1050h105v105H105z%22%2F%3E%3Cpath fill=%22none%22 d=%22M210 1050h105v105H210zM525 1050h105v105H525z%22%2F%3E%3Cpath fill=%22%23fd46465f%22 d=%22M630 1050h105v105H630z%22%2F%3E%3Cpath fill=%22%23fd464652%22 d=%22M735 1050h105v105H735z%22%2F%3E%3Cpath fill=%22none%22 d=%22M840 1050h105v105H840zM945 1050h105v105H945zM1050 1050h105v105h-105zM1260 1050h105v105h-105zM1470 1050h105v105h-105zM1575 1050h105v105h-105zM1680 1050h105v105h-105zM1890 1050h105v105h-105zM0 1155h105v105H0zM105 1155h105v105H105zM210 1155h105v105H210zM315 1155h105v105H315zM420 1155h105v105H420z%22%2F%3E%3Cpath fill=%22%23fd464634%22 d=%22M525 1155h105v105H525z%22%2F%3E%3Cpath fill=%22none%22 d=%22M630 1155h105v105H630z%22%2F%3E%3Cpath fill=%22%23fd46465a%22 d=%22M735 1155h105v105H735z%22%2F%3E%3Cpath fill=%22none%22 d=%22M1155 1155h105v105h-105zM1260 1155h105v105h-105zM1365 1155h105v105h-105zM1470 1155h105v105h-105z%22%2F%3E%3Cpath fill=%22%23fd464623%22 d=%22M1680 1155h105v105h-105z%22%2F%3E%3Cpath fill=%22%23fd464614%22 d=%22M420 1260h105v105H420z%22%2F%3E%3Cpath fill=%22%23fd464610%22 d=%22M525 1260h105v105H525z%22%2F%3E%3Cpath fill=%22none%22 d=%22M630 1260h105v105H630zM735 1260h105v105H735zM840 1260h105v105H840zM945 1260h105v105H945z%22%2F%3E%3Cpath fill=%22%23fd464630%22 d=%22M1050 1260h105v105h-105z%22%2F%3E%3Cpath fill=%22none%22 d=%22M1365 1260h105v105h-105zM1470 1260h105v105h-105zM1890 1260h105v105h-105zM0 1365h105v105H0zM105 1365h105v105H105z%22%2F%3E%3Cpath fill=%22%23fd46460b%22 d=%22M210 1365h105v105H210z%22%2F%3E%3Cpath fill=%22none%22 d=%22M315 1365h105v105H315zM420 1365h105v105H420z%22%2F%3E%3Cpath fill=%22%23fd464640%22 d=%22M525 1365h105v105H525z%22%2F%3E%3Cpath fill=%22%23fd464618%22 d=%22M630 1365h105v105H630z%22%2F%3E%3Cpath fill=%22%23fd464636%22 d=%22M735 1365h105v105H735z%22%2F%3E%3Cpath fill=%22none%22 d=%22M840 1365h105v105H840zM945 1365h105v105H945zM1050 1365h105v105h-105zM1260 1365h105v105h-105zM1365 1365h105v105h-105z%22%2F%3E%3Cpath fill=%22%23fd46463b%22 d=%22M1680 1365h105v105h-105z%22%2F%3E%3Cpath fill=%22none%22 d=%22M1785 1365h105v105h-105zM1890 1365h105v105h-105z%22%2F%3E%3C%2Fg%3E%3Cdefs%3E%3CradialGradient id=%22a%22%3E%3Cstop offset=%2250%25%22 stop-color=%22%23fff%22 stop-opacity=%220%22%2F%3E%3Cstop offset=%221%22 stop-color=%22%23fff%22 stop-opacity=%22.5%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3C%2Fsvg%3E");
+
+}
